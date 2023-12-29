@@ -1,0 +1,157 @@
+/* Footer.css */
+
+/* Style for the footer container */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    /* background-image:linear-gradient(to right,blueviolet, red, yellow);
+     */
+     background-color:rgb(109, 109, 236);
+     /* margin-top: 0px; */
+    /* padding: 20px 0; */
+    font-family: Arial, sans-serif;
+
+  }
+
+  
+  /* Style for each section in the footer */
+  .footer-section {
+    width: 50%;
+  }
+  
+  /* Style for the heading of each section */
+  .footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: blue;
+  }
+  
+  /* Style for the list in each section */
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 100px;
+    font-size: 17px;
+  }
+  
+  /* Style for list items */
+  .footer-section li {
+    margin-bottom: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for list item links */
+  .footer-section li a {
+    text-decoration: none;
+    color:black;
+  }
+  
+  /* Hover effect for list item links */
+  .footer-section li a:hover {
+    color: green;
+  }
+  
+
+  /* Footer.css */
+
+
+
+.footer-section h6 {
+  /* Styles for the copyright text */
+  text-align: center;
+  font-size: 13px;
+  color:black; /* Adjust the color */
+  margin-top: 100px; /* Adjust top margin as needed */
+}
+.social-icons {
+  display: none; /* Initially hide the icons */
+}
+
+
+@media (min-width: 769px) {
+  .footer-section p {
+    display: none; /* Hide the paragraph on larger screens */
+  }
+  
+}
+
+
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin: 15px 0;
+  }
+
+  .footer-section h6{
+    display: none;
+  }
+li {
+    font-size: 15px; /* Adjust this value for smaller screens */
+    white-space: nowrap; /* Prevent text wrapping */
+    /* Hide overflowing text */
+  }
+  .footer-section p {
+    /* text-align: center; */
+    /* text-align: justify; */
+    font-size: 15px;
+    max-width: 100%;
+    font-weight: 700;
+    color: black; /* Adjust the color */
+    margin-top: 50px;
+    /* margin-left: 10px; */
+  }
+  
+}
+
+
+
+
+
+ @media (min-width:769px) and (max-width:1236px) {
+  /* Additional styles for screens larger than 1024px */
+  .footer-section ul {
+      margin-left: 0; /* Reset the margin-left */
+      text-align: left; /* Align the list items to the left */
+      max-width: 80%;
+  }
+
+  .footer-section p {
+      font-size: 20px; /* Adjust font size */
+      margin-top: 30px;
+      margin-left: 0; /* Reset the margin-left */
+  }
+  
+  .footer-section h6 {
+      display: flex; /* Display the copyright text */
+      margin-top: 120px; /* Adjust margin top */
+     /* margin-right: 30px */
+  }
+
+  .footer-section {
+      width: 20%; /* Remove the fixed width */
+  }
+  .footer {
+    flex-direction: row;
+    text-align: center;
+    max-width: 80%;
+  }
+ /* Styling for the h3 tag in the footer section */
+.footer-section h3 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: red;
+  text-align: left;
+  max-width: 80%; /* Adjust the width as needed */
+  margin-left: auto; /* Align to the left */
+  margin-right: auto; /* Align to the right */
+}
+
+
+}
+
+

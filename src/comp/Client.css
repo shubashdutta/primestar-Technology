@@ -1,0 +1,65 @@
+/* Client.css */
+
+/* Other styles for your section */
+/* Client.css */
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px; /* Add some bottom margin */
+  }
+  
+  .section-header h3 {
+    font-size: 32px;
+    color: #000;
+  }
+  
+  .section-header p {
+    font-size: 20px;
+    color: #666;
+ 
+    text-align: justify;
+  }
+  
+  /* Add this style to position section-header at the top */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-right: none;
+  }
+  
+.clients-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .clients-wrap .col-lg-3 {
+    width: calc(33.33% - 2px); /* Adjust the width to fit 3 images in a row */
+    margin-bottom: 5px;
+    border-right: none;
+  }
+  
+  /* For smaller screens, display two images in a row */
+  @media (max-width: 768px) {
+    .clients-wrap .col-lg-3 {
+      width: calc(50% - 20px); /* Adjust the width to fit 2 images in a row */
+    }
+    .section-header p {
+      font-size: 10px;
+      color: #666;
+   
+      text-align: justify;
+    }
+  }
+  
+  .client-logo img {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    border: 2px solid #000; /* Add a border around each image */
+    box-sizing: border-box; /* Ensure border size is accounted for in width/height */
+  }
+  

@@ -1,0 +1,180 @@
+/* Your CSS file (e.g., styles.css) */
+
+/* Styling for the navigation menu */
+/* Your CSS file (e.g., styles.css) */
+
+/* Styling for the navigation menu */
+/* body{
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
+} */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; Adjust the padding to increase the height */
+    background-color: #ffffff;
+    /* background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%); */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  
+    /* margin-top: 20px; */
+   
+    
+   
+  /* Add a border at the bottom only */
+    /* You can adjust the background color and border color as per your design */
+  }
+  
+  
+  .nav-item {
+    list-style: none;
+    margin-right: 10px;
+    z-index: 1000;
+    
+    /* text-transform: uppercase; */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color:#050101d3;
+    font-weight:800;
+    padding: 20px 20px; 
+    
+    /* border-radius: 5px; */
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    /* font-weight: bold; */
+    text-align: left;
+    text-align: start;
+   
+    
+    
+  }
+  
+  /* ... (Other styles remain unchanged) */
+  
+  
+  .nav-link:hover {
+    /* background-color:rgba(235, 157, 14, 0.553);
+     */
+     /* background-color: (315deg, #89d4cf 0%, #6e45e1 74%); */
+/* background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%); */
+
+    margin-top: 20px;
+    /* Adjust hover background color as needed */
+  }
+  
+  
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding-left: 0;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-item {
+    color: #08074b;
+    padding: 5px 15px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+    text-align: left;
+    /* margin-right: 500px; */
+    font-size: 20px;
+    margin-top: 10px;
+    text-emphasis-color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    
+  }
+  
+  .dropdown-item:hover {
+    background-color: #663dff;
+    background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    text-transform: capitalize;
+    /* margin-top: 20px; */
+    /* Adjust dropdown item hover background color */
+  }
+  
+  .nav-link.disabled {
+    color: #999999;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* Adjust disabled link styles */
+  }
+  
+  /* Homepage.css */
+
+/* Common styles for both mobile and desktop */
+/* ... */
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .nav-item {
+    display: none; /* Hide the navbar items on mobile */
+  }
+  .logo{
+     justify-content: center;
+  }
+  
+  
+}
+
+/* Desktop styles */
+/* Add styles specific for larger screens if required */
+
+
+.innovationsHeader {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: rgb(135,206,235);
+  padding: 5px;
+  display: block;
+  text-align: center;
+  margin-bottom: 4px;
+}
+.innovationsSecret{
+  font-size: '40px';
+    margin-left: '30px';
+    margin-right: '20px';
+    margin-top: '20px';
+    font-weight: 'bold';
+    margin-bottom: '30px';
+    text-align: 'center';
+}
+
+@media (min-width:769px) and (max-width:1236px){
+
+    .innovationsHeader {
+      font-size: 24px;
+      margin: 10px;
+      padding: 3px;
+     margin-left: 350px;
+     margin-right: 550px;
+    }
+    .innovationsSecret{
+      font-size: 20px;
+      margin-left: 30px;
+    }
+    .nav-item{
+      display: none;
+   
+    }
+    .nav{
+      max-width: 80%;
+    }
+    
+}
+
+

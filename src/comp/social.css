@@ -1,0 +1,59 @@
+/* SocialMediaLinks.css */
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    gap: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+    background-color:white;
+ 
+    /* Add any other necessary styles */
+  }
+  
+  .social-links li {
+    font-size: 30px;
+    font-weight: 1000;
+  }
+  
+  .social-links h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 500px;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .social-links {
+      display: none; /* Hide the social links (icons) for tablets */
+    }
+  
+    .social-links h1 {
+      margin-right: 0; /* Remove margin for tablets */
+      font-size: 24px; /* Adjust font size for tablets */
+      /* display: block;  */
+    }
+  
+    /* Hide any other elements for tablets */
+    .social-links li {
+      display: none;
+    }
+  }
+
+
+  @media (min-width:789px) and (max-width:1236px){
+    .social-links {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end; /* Align items to the right */
+      gap: 10px;
+    max-width: 80%;
+      background-color:whitesmoke;
+   
+      /* Add any other necessary styles */
+    }
+    
+  }

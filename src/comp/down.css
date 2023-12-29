@@ -1,0 +1,324 @@
+/* Home page CSS */
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: Gainsboro;
+    color: black; /* Set your desired background color */
+    font-family: Arial, sans-serif;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+   
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  margin-left: 10px;
+    background-color: peru; /* Set your desired button color */
+    color: purewhite;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Set your desired button hover color */
+  }
+  
+ /* CSS for About PrimeStart */
+/* Container Style */
+
+  /* Media Query for Mobile */
+ /* styles.css */
+ @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 1rem;
+      margin-bottom: 5px;
+    }
+  
+    button {
+      padding: 6px 12px;
+      font-size: 1rem;
+    }
+  }
+.down {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .left-content {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .right-content {
+    flex: 1;
+    max-width: 100%;
+  }
+  
+  .down h2 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding: 1px;
+    border-radius: 1px;
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+    background-color: Gainsboro;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  
+  .down h3 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  .down p {
+    line-height: 1.5;
+    text-align: justify;
+   
+    font-size: 20px;
+    margin-top: 90px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .down {
+      flex-direction: column;
+      
+    }
+  
+    .down h2 {
+      font-size: 1.2rem;
+      margin-top: 0;
+      margin-left: 0px;
+    }
+    
+    .down h3 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      margin-left: 0px;
+    }
+  
+    .down p {
+      margin-top: 0;
+      font-size: 14px;
+      margin-left: 0px;
+    }
+  }
+  
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+  .right-content {
+    flex-direction:column;
+    align-items:left;
+    background-color: #f0f0f0;
+    max-width: 100%;
+    padding: 20px;
+    
+  }
+
+  .feature-content {
+    /* flex: 1; */
+    max-width:  100%;
+    font-size: 16px;
+    
+  }
+
+ /* Styling for the text */
+.feature-title h1 {
+  font-size: 20px;
+  margin-bottom: 50px;
+  display: inline;
+  background-color: rgba(95, 3, 95, 0.858); /* Set the desired background color */
+  /* Adjust padding to your liking */
+}
+
+  .feature-title h2 {
+    font-size: 20px;
+    text-align: left;
+    max-width: 100%;
+    /* margin-left: 0px; */
+    /* margin-right: 50px; */
+  }
+
+  .feature-content button {
+    /* margin-right: 30px; */
+    margin-bottom: 10px;
+    flex-direction: row;
+  }
+
+  .content-paragraph {
+    /* font-size: ; */
+ 
+    font-size: 15px;
+font-family: system-ui;
+font-weight:400;
+max-width: 100%;
+text-align: start;
+     /* Align text to the left */
+   
+   
+    /* margin-right: 10px; */
+    /* margin-left: 0px; */
+    
+    /* text-align: justify; */
+  }
+
+  /* Adjust image styling */
+  .right-content img {
+    max-width: 100%; 
+   max-height: 150px; 
+    margin-bottom: 20px; /* Add margin for spacing */
+    /* margin-top: 0px; */
+    object-fit: scale-down;
+ 
+   
+    
+    
+   
+  }
+  
+}
+
+
+
+@media (min-width:769px) and (max-width:1236px){
+  .right-content {
+    flex-direction: column;
+    max-width: 80%;
+    align-items:left;
+    background-color: #f0f0f0;
+    /* padding: 20px; */
+    
+  }
+ 
+
+  .feature-content {
+    flex: 1;
+    width: 90%;
+    font-size: 16px;
+    
+  }
+
+ /* Styling for the text */
+.feature-title h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: inline;
+  background-color: Gainsboro; /* Set the desired background color */
+  padding: 5px 10px; /* Adjust padding to your liking */
+}
+
+  .feature-title h2 {
+    font-size: 20px;
+    /* margin-left: 0px; */
+    margin-right: 190px;
+    text-align: left;
+  }
+
+  .feature-content button {
+    /* margin-right: 30px; */
+    margin-bottom: 10px;
+  }
+
+  .content-paragraph {
+    /* font-size: ; */
+    font-size: 19px;
+font-family: Times New Roman
+Georgia
+Garamond;
+font-weight: bold;
+    text-align: left; /* Align text to the left */
+    margin-left: 1px;
+    margin-right: 10px;
+   
+    /* margin-right: 10px; */
+    /* margin-left: 0px; */
+    
+    /* text-align: justify; */
+  }
+
+  /* Adjust image styling */
+  .right-content img {
+    max-width: 100%; 
+   max-height: 400px; 
+    margin-bottom: 20px; /* Add margin for spacing */
+    
+    object-fit: cover;
+    
+   
+  }
+.down {
+      flex-direction: column;
+      
+      
+    }
+  
+    .down h2 {
+      font-size: 1.2rem;
+      margin-top: 0;
+      margin-left: 0px;
+    }
+    
+    .down h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      margin-left: 0px;
+    }
+  
+    .down p {
+      margin-top: 0;
+      font-size: 16px;
+      margin-left: 0px;
+    }
+    .left-content h3{
+      font-size: 40px;
+      max-width: 80%;
+      
+    }
+    .content h1{
+      max-width:100%;
+      font-size: 19px;
+      max-height: auto;
+    }
+    .home-page {
+      display: flex;
+      max-width: 80%;
+     
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: Gainsboro; /* Set your desired background color */
+      font-family: Arial, sans-serif;
+     
+    }
+}
+
+.feature-title{
+  margin-left: 20px;
+}
+.content-paragraph{
+  margin-left: 20px;
+}
